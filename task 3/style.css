@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background: url('tempa.jpg');
+    background-size: cover;
+  }
+  .container {
+    max-width: 400px;
+    margin: 8em auto;
+   padding: 20px; 
+    border-radius: 10px;
+    background-color: rgba(19, 12, 12, 0.603); /* Adjust transparency here */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.441);
+  
+  }
+  label {
+    font-weight: bold;
+    color: #fff;
+  }
+  input[type="number"], select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #fff;
+    animation: fadeIn 0.5s ease;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
